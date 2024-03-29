@@ -1,0 +1,58 @@
+body
+	{
+		background-image: url(../asset/image/bg.jpg);
+	}
+h1{
+    height: 10rem;
+    /* border: 1px solid black; */
+    margin: auto;
+    padding: 1.7rem;
+    text-align: center;
+}
+a{
+    color: #FF0000; 
+
+}
+/******************************************** nav  ********************************************************/
+.show {
+    background-color: rgb(97, 30, 178) !important;
+    color: #F48080 !important;
+    box-shadow: 1px 1px 7px black !important; 
+    margin-bottom: 3%;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: white !important;
+    background-color: #F48080 !important;
+    margin-bottom: 3%;  
+}
+.nav {
+    justify-content: center !important;
+    margin-bottom: 3% !important;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: black;
+    background-color: #F48080 !important;
+  }
+/******************************************** nav  ********************************************************/
+h1:hover {
+    background-color: indianred;
+    text-decoration:none;
+
+}
+.log
+{
+    vertical-align: middle; 
+    padding: 0px 40px;
+    min-height: 10px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+    flex-basis: 100%;
+
+}
+
+.card {
+    background-color: transparent !important ;
+
+}

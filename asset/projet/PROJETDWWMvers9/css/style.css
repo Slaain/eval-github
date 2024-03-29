@@ -1,0 +1,118 @@
+
+body,html{
+	height: 100vh;
+}
+.placement {
+	
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	  }
+
+body{
+
+	background-image: url("../img/bgcoupe.jpg");
+	height: 100%;
+	background-repeat: no repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+h2 {
+    font-family: Arial, Verdana;
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #091f2f;
+    text-transform: uppercase;
+}
+.accordion-section {
+	background-color: aliceblue;
+	width:70%;
+	height: 65%;
+	border-radius: 2%;
+	margin:auto;
+}
+
+#start {
+	border-radius: 13%;
+	padding: 0.4em;
+	margin-left: 4%;
+}
+
+.accordion-section .panel-default > .panel-heading {
+    border: 0;
+    background: indianred;
+    padding: 0;
+}
+
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+.accordion-section {
+	background-color: aliceblue;
+}
+
+.accordion-section .panel-default .panel-title a:after {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 3rem;
+    content: "\f106";
+    color: white;
+    float: right;
+    margin-top: -12px;
+}
+a:hover {
+	/* color: #0056b3; */
+	color: white;
+	background-color: rosybrown;
+	text-decoration: none;
+	background-color: transparent;
+	text-decoration: underline;
+  }
+a {
+	color: white;
+	text-decoration: none;
+	background-color: transparent;
+  }
+.accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\f107";
+}
+
+.accordion-section .panel-default .panel-body {
+    font-size: 1.2rem;
+}
+/*////////////////////navbar /////////////////////////*/
+
+.nav-link{
+
+	color: black;
+}
+.nav-link:hover{
+	cursor: pointer;
+}
+
+/*/////////////////////////form////////////////////*/
+.form-inline{
+	margin: 2% 0 0 45%;
+}
+#uk{
+	text-align: center;
+	color: white;
+	font-size: 5em;
+}
+
+
+/*//////////////////carouselle///////////////*/
+
+
+.carouselle{
+
+	display: flex;
+	flex-direction: row;
+	-moz-background-image: url('img/fifalogo2.png'),url('img/logouk.png'),url('img/qatar2022.jpg');
+    -ms-background-image: url('img/fifalogo2.png'),url('img/logouk.png'),url('img/qatar2022.jpg');
+    -o-background-image: url('img/fifalogo2.png'),url('img/logouk.png'),url('img/qatar2022.jpg');
+}

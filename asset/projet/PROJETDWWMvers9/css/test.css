@@ -1,0 +1,94 @@
+/*////////////////////CSS///////////*/
+
+body,html{
+	height: 100vh;
+}
+
+body{
+        	
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,37,9,1) 61%, rgba(226,11,30,0.630987429151348) 100%);
+	
+
+}
+
+
+/*////////////////////navbar /////////////////////////*/
+
+.nav-link{
+
+	color: white;
+	
+}
+
+.nav-link:hover{
+
+	cursor: pointer;
+
+}
+
+/*/////////////////////////form////////////////////*/
+
+
+.form-inline{
+
+	margin: 2% 0 0 40%;
+}
+
+#uk{
+
+	text-align: center;
+	color: white;
+	font-size: 5em;
+}
+
+/*////////////////////jubotron//////////////////////*/
+
+.jumbotron{
+
+	background: linear-gradient(90deg, rgba(73,66,180,0.42930675688244047) 15%, rgba(121,37,9,1) 50%, rgba(226,11,30,0.630987429151348) 98%);
+}
+
+.jumbotron h1{
+
+	color: white;
+
+}
+
+.jumbotron p{
+	color: white;
+}
+
+.jumbotron a{
+    
+    background-color: black;
+	color: white;
+}
+
+.jumbotron a:hover{
+
+	background-color: white;
+	transform: scale(1.3);
+}
+
+.jumbotron small{
+
+	color: silver;
+}
+
+/////////////////////Container///////////////////////
+
+
+.container-fluid .row .col p{
+
+	text-align: center;
+}
+
+
+@media screen and(max-width: 600px){
+      
+      body{
+      	background-color: white;
+      }
+
+	
+}

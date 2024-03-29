@@ -1,0 +1,58 @@
+/* /////////////////accueil////////////////** */
+
+body,
+html {
+  height: 100vh;
+}
+
+body {
+  background-image: url("../img/bgcoupe.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/*////////////////////navbar /////////////////////////*/
+
+.nav-link {
+  /*margin-left: 50%;*/
+  color: black;
+  /*font-family: comic sans ms ;*/
+}
+.nav-link:hover {
+  cursor: pointer;
+}
+
+/*/////////////////////////form////////////////////*/
+.form-inline {
+  margin: 2% 0 0 45%;
+}
+#uk {
+  text-align: center;
+  color: white;
+  font-size: 5em;
+}
+
+/*//////////////////carouselle///////////////*/
+
+.carouselle {
+  display: flex;
+  flex-direction: row;
+  -moz-background-image: url("img/fifalogo2.png"), url("img/logouk.png"),
+    url("img/qatar2022.jpg");
+  -ms-background-image: url("img/fifalogo2.png"), url("img/logouk.png"),
+    url("img/qatar2022.jpg");
+  -o-background-image: url("img/fifalogo2.png"), url("img/logouk.png"),
+    url("img/qatar2022.jpg");
+}
+
+
+
+/* //////////////////////fin d'accueil////////////////////////////////////// */
+
+/* ///////////////////////footer///////////// */
+
+footer{
+    background-color: transparent;
+}

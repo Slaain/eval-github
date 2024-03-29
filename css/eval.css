@@ -1,0 +1,80 @@
+body
+	{
+		background-image: url(../asset/image/bg.jpg);
+	}
+h1{
+    height: 10rem;
+    /* border: 1px solid black; */
+    margin: auto;
+    padding: 1.7rem;
+    text-align: center;
+}
+a{
+    color: #FF0000; 
+}
+h1:hover {
+    background-color: indianred;
+    text-decoration:none;
+
+}
+
+.jumbotron {
+
+        background-color: transparent !important;
+        padding-top: 0rem !important;
+}
+/******************************************** nav  ********************************************************/
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: white !important;
+    background-color: #F48080 !important;
+}
+.show {
+    background-color: rgb(97, 30, 178) !important;
+    box-shadow: 1px 1px 7px black !important; 
+}
+
+/******************************************** nav  ********************************************************/
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: black;
+    background-color: #F48080 !important;
+  }
+svg {
+	filter: drop-shadow(0 0 0.75rem crimson);
+}
+.circ
+	{
+		width: 135px;
+        height: 143px;
+		margin:2% auto;	
+		background-image: url(../asset/image/moi.png) ;
+		background-position: center;
+		background-size:142px;
+		border-radius: 50%;
+        border: 2px solid indianred;
+        -webkit-filter: grayscale(0) blur(0px) !important;
+        filter: grayscale(0) blur(0px) !important;
+        -webkit-transition: all 0.5s ease !important; 
+        transition: all 0.5s ease !important;
+	}
+    .log
+    {
+        vertical-align: middle; 
+        padding: 0px 40px;
+        min-height: 10px;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        text-align: center;
+        flex-basis: 100%;
+    
+    }
+
+.lead{
+    box-shadow: 1px 1px 38px rgb(63, 3, 91);
+    border-radius: 7px;
+    padding: 6%; 
+    color: white;
+}
+.footer{
+    background: linear-gradient(#8230a3, #e66465);
+}

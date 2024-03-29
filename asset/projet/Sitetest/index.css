@@ -1,0 +1,211 @@
+
+@font-face {
+    font-family: 'distant_galaxyregular';
+    src: url('fonts/DISTGRG_-webfont.eot');
+    src: url('fonts/DISTGRG_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/DISTGRG_-webfont.woff2') format('woff2'),
+         url('fonts/DISTGRG_-webfont.woff') format('woff'),
+         url('fonts/DISTGRG_-webfont.ttf') format('truetype'),
+         url('fonts/DISTGRG_-webfont.svg#distant_galaxyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	
+}
+
+@font-face {
+    font-family: 'ambleregular';
+    src: url('onts/Amble-Regular-webfont.eot');
+    src: url('onts/Amble-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('onts/Amble-Regular-webfont.woff2') format('woff2'),
+         url('onts/Amble-Regular-webfont.woff') format('woff'),
+         url('onts/Amble-Regular-webfont.ttf') format('truetype'),
+         url('onts/Amble-Regular-webfont.svg#ambleregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body {
+    background-color: black;
+    position: relative;
+    height: 100%;
+}
+
+p {
+    font-family: distant_galaxyregular ; ambleregular;
+    font-size: 180%;
+    text-align: center;
+    color: white;
+}
+
+
+.allhead {
+    width: 90%;
+    height: 30%;
+    margin: auto;
+    background-image: url(./photo.jpg);
+    box-shadow: 0px 0px 14px maroon;
+    border: 3px solid black;
+}
+
+
+
+
+nav {
+
+    width: 85%;
+    height: 60%;
+    margin: auto;
+    margin-top: 0.6%;
+    background-color: transparent;
+    border: 2px solid black;
+    position: relative;
+    bottom: 70%;  
+    box-shadow: 0px 0px 14px silver;
+}
+
+nav ul{
+
+    list-style-type: none;
+}
+
+nav li{
+
+    margin-right: 5%;
+    display: inline-block;
+    position: relative;
+    left: 22%;
+}
+
+
+header {
+    width: 98%;
+    height: 85%;
+    margin: auto;
+    margin-top: 0.6%;
+    background-image: url(./photo.jpg);
+    box-shadow: 0px 0px 14px maroon;
+}
+
+.banniere_image {
+
+    width: 95%;
+    height: 20%;
+    margin-top: 1.5%;
+    /* border: 3px solid black; */
+    position: absolute;
+    left: 3%;
+    background-image: url(./photo.jpg);
+    background-position:right 35% bottom 65%;
+    box-shadow: 0px 0px 14px maroon;
+
+}
+
+section {
+
+    width: 95%;
+    height: 60%;
+    margin-top: 1.2%;
+    border: 3px solid black;
+    position: absolute;
+    left: 3%;
+    top: 55%;
+    background-image: url(./photo.jpg);
+    background-position:right 35% bottom 20%;
+    box-shadow: 0px 0px 14px maroon;
+
+
+}
+
+
+
+footer{
+
+    width: 90%;
+    height: 20%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    border: 3px solid black;
+    position: absolute;
+    left: 5%;
+    top: 118%;
+    background-color: darkred;
+    box-shadow: 0px 0px 14px silver;
+
+}
+
+article {
+
+    width: 25%;
+    height: 90%;
+    border: 3px solid black;
+    position:absolute;
+    left: 6%;
+    top: 5%;
+    display: inline-block;
+    background-color: darkslategrey;
+    box-shadow: 0px 0px 14px silver;
+} 
+P {
+    text-align: center;
+    font-family: distant_galaxyregular ; ambleregular ;
+}
+aside { 
+
+    width: 15%;
+    height: 60%;
+    border: 3px solid black;
+    position:absolute;
+    left: 32%;
+    top: 20%;
+    display: inline-block;
+    background-color: darkslategrey;
+    box-shadow: 0px 0px 14px silver;
+}
+
+.art {
+
+    width: 25%;
+    height: 90%;
+    border: 3px solid black;
+    position:absolute;
+    left: 49%;
+    top: 5%;
+    display: inline-block;
+    background-color: darkslategrey;
+    box-shadow: 0px 0px 14px silver;
+}
+
+.as { 
+
+    width: 15%;
+    height: 60%;
+    border: 3px solid black;
+    position:absolute;
+    left: 75%;
+    top: 20%;
+    display: inline-block;
+    background-color: darkslategrey;
+    box-shadow: 0px 0px 14px silver;
+}
+
+.logos .logo
+{
+	vertical-align: middle; 
+    position: relative;
+    margin-right: 200px;
+    top: 26%;
+    left: 50%;
+    justify-content: space-evenly;
+	min-height: 10px;
+    align-items: center;
+}
+
+.logos
+{
+    align-items: center;
+	justify-content: space-evenly;
+    position: absolute;
+
+}

@@ -1,0 +1,57 @@
+/*////////////////////CSS///////////*/
+
+body,html{
+	height: 100vh;
+}
+
+body{
+        	
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,37,9,1) 61%, rgba(226,11,30,0.630987429151348) 100%);
+	
+
+}
+
+
+/*////////////////////navbar /////////////////////////*/
+
+.nav-link{
+
+	color: black;
+	
+}
+
+.nav-link:hover{
+
+	cursor: pointer;
+}
+
+/*/////////////////////////form////////////////////*/
+
+
+.form-inline{
+
+	margin: 2% 0 0 45%;
+}
+
+#uk{
+
+	text-align: center;
+	color: white;
+	font-size: 5em;
+}
+
+
+//////////////////////CONTAINER1/////////////////////
+
+#x{
+
+	
+/*background-image: url('../img/covercontaine.jpg')!important;
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center; 
+height: 100px;*/
+background-color: white !important;
+
+}
+

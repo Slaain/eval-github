@@ -1,0 +1,6 @@
+RewriteEngine On
+
+# Rediriger toutes les requêtes vers un fichier accueil.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ accueil.php [L]

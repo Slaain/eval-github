@@ -1,0 +1,73 @@
+header{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 100px;
+	/*border: 1px solid black;*/
+	/*background: indianred;*/
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+body{
+  background-image: url(../img/bgcoupes.jpg);
+	height: 100vh;
+	background-repeat: no repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+nav ul{
+
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
+	list-style-type: none;
+  margin-top: 3%;
+	/*padding-right: 50px;*/
+
+   
+}
+img{
+    margin: 0% 41%;
+  }
+
+nav ul li{
+	padding-right: 20px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	cursor: pointer;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a {
+	text-decoration: none !important;
+	color: black;
+}
+a:hover{
+	color: darkred;
+	background-color: beige;
+	width: 10%;
+}
+ table{
+  width: 47%;
+  height: 20%;
+  text-align: center;
+  margin-left: 23%;
+  background-color: antiquewhite;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+form{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin:2% 38%;
+}
+.jumbotron{
+  margin-top: 2%;
+  background-color: rgb(218, 234, 70) !important;
+  opacity: 0.5;
+  
+}
+.display-4{
+  font-size: 2.5rem !important;
+}

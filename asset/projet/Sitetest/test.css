@@ -1,0 +1,35 @@
+section {
+    width: 30%;
+    height: 50%;
+    border: 2px solid black;
+    background-image: url(images/2.jpg);
+    background-position: center;
+    z-index: 3;
+}
+/* section:hover {
+    width: 30%;
+    height: 50%;
+    transition:height .5s ease-out 6s; 
+    border: 2px solid black;
+    background-image: url(images/15.jpg);
+    background-position: center;
+    z-index: 2;
+} */
+
+.fav {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position:absolute;
+    left:25%;
+    top: 30%;
+}
+.fav:hover {
+    width: 50%;
+    height: 50%;
+    transition:height .5s ease-out 6s; 
+    border: 2px solid black;
+    background-image: url(images/15.jpg);
+    background-position: center;
+    z-index: 2;
+}

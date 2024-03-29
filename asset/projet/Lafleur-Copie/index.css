@@ -1,0 +1,88 @@
+html {
+    background-image: url(images/fleur.webp);
+}
+
+body {
+    background-color: #f5e5ec ;
+    position: relative;  /* parent */
+    height: 100%;
+}
+
+
+/* class menu pour gerer mon menu de navigation */
+.menu { 
+    width: 30%;
+    height: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    display: inline-block;
+    background-image: url(images/back.jpg);
+    background-position: 25% 75%;
+    background-size: cover;
+}
+
+/* une class titre pour gerer le titre dans ma navigation  */
+.tit {
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 5%;
+    border-bottom: 1px solid black;
+    font-style: italic;
+}
+
+/* une class prod pour gerer mes liste position etc.. */
+.prod {
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 5%;
+    border-bottom: 1px solid black;
+}
+
+
+li  {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* la class page pour gerer ma page d'accueil */
+
+.page{
+    height: 100%;
+    width: 70%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    display: inline-block;
+    position: absolute;
+    left: 30%;
+    top: 0.2%;
+}
+
+img {
+    position: absolute;
+    left: 27%;
+    top: 25%;
+}
+
+h3 {
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    left: 45%;
+    top: 18%;
+}
+
+/* la class pour gerer la premiere phrase 
+ */
+
+#app {
+    position: absolute;
+    left: 40%;
+    bottom:16%;
+}
+
+/* la class rec pour gerer ma deuxieme phrase */
+
+#rec {
+    position: absolute;
+    left: 45%;
+    bottom:14%;
+}

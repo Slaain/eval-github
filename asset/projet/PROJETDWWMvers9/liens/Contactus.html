@@ -1,0 +1,261 @@
+<!--   ========================================   AUTEUR : Groupe C 
+                                             Date : 18/01/2022
+                                             Des : Projet Statistique Euro2022 LG HTML ===================================== -->
+
+
+
+
+<!DOCTYPE html>
+
+           <html lang="fr">
+           <head>
+                    <meta charset="utf-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1">
+                    <link rel="stylesheet" type="text/css" href="../assets/stylescontact.css">
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+                    <script type="text/javascript" src="../assets/codejs/contact.js"></script>
+
+
+                                      <title>Accueil</title>
+                   
+          </head>
+
+
+   
+<body>
+                           <!--  ********************HEADER***************  -->
+       <header>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Accueil</a></li>
+                    <li><a href="../liens/Calendar.html">Calendar</a></li>
+                    <li><a href="../liens/statistiques.html">Statistique</a></li>
+                    <li><a href="../liens/Affectations.html">Affectation</a></li>
+                    <li><a href="../liens/administrateur.html">Admin</a></li>
+                    <li><a href="#">Contact-US</a></li>
+                </ul>
+
+
+            </nav>
+
+            <div id="container1">
+                <input type="text" name="search" id="search" placeholder="Search..">
+                <button type="button" onClick="alert('not yet')">Rechercher</button>
+            </div>
+
+       
+
+
+       </header>
+
+                       <!--  ********************CONTAINER ADRESSE******************** -->
+                        
+                 <div>
+                     <img src="../assets/img/fifalogo.png" alt="logo" id="img-cont">
+                 </div>
+
+              <section id="contact">
+                  
+                  <h2>Nous Contactez</h2>
+                  <br>
+                  <br>
+                  <p>                                            
+                      <br>
+                      <br>
+                      Fédération Internationale de Football Association
+                      <br>
+                      <br>
+                      <br>
+                      FIFA Strasse 20
+                      <br>
+                      P.O Box 8044
+                      Zurich
+                      <br>
+                      Suisse
+                      <br>
+                      <br>
+                     Téléphone : +41-(0)43 222 7777
+                  </p>
+
+              </section>
+
+
+   <!--  //////////////////////////////////////FRAME/////////////////////////////// -->
+
+
+             <div id="if-container">
+                 
+                          <iframe src="https://www.youtube.com/embed/oVXzuhI1W-A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <br>
+                          <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231083.55571648382!2d51.45644281640623!3d25.18026190000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45c5a26191bd65%3A0x53dcbfd0dbf514f!2sStadium%20974!5e0!3m2!1sfr!2sfr!4v1645701444838!5m2!1sfr!2sfr" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
+
+            </div>
+            <br>
+            <br>
+
+           <!--  ////////////////////////////////////// CONTAINER CANDIDATURE//////////////////////////////// -->
+
+              <hr>
+
+
+                            <button id="click1">Candidature</button>
+
+              <section id="info-container">
+                <br>
+                <br>
+                      
+                            <h2>Candidature</h2>
+                            <br>
+                            <br>
+
+                           <p>
+                               Vous souhaitez intégrer nos équipes : <br>
+                               <br>
+                                  Nous recherchons des profils de tout ages <br>
+                                  Sur la base du volontariat , vous profiterez de plusieurs avantages concernant l'accés à la coupe du monde (<a href="https://www.fifa.com/fr/about-fifa/careers" style="color:red; text-decoration:underline;" id="fifacarrer">Avantages</a>)<br>
+                                  <br>
+                                  <br>
+                                  Rejoignez la team Coupe du Monde 2022 
+
+                           </p>
+
+                           <a href="#" id="btn1" onclick='f()' >Postulez !</a>
+                  
+              </section>
+
+
+<!--               /////////////////////////////////////FENETRE MODAL FORM////////////////////// -->
+
+
+              <div class="modal">
+
+                <div class="modalcontent">
+
+                       <div class="close" onclick="C();">&#x2717</div>
+
+                    <img src="../assets/img/fifalogo2.png" alt="fifa" style="margin-left: 25%">
+
+                        <form action="#">
+
+                                <input type="text" name="Nom" placeholder="Nom"><br>
+                                <br>
+                                <input type="text" name="Prenom" placeholder="Prenom">
+                                <br>
+                                <br>
+                                <input type="text" name="age" placeholder="Age">
+                                  
+                                <br>
+                                <br>
+                                <label for='Sex' style='color:black'>Sexe : </label>
+                                <input type="checkbox" name="Sex"><p style='color: black;display: inline-block;'>M</p><input type="checkbox" name="sex"><p style='color: black;display: inline-block;'>F</p>
+                                <br>
+                                <br>
+                                <label for='age' style='color: black;'>Date de Naissance</label>
+                                <input type="date" name="age">
+                                <br>
+                                <br>
+
+                                <input type="text" name="adress" placeholder="Adresse">
+                                <br>
+                                <br>
+                                <input type="text" name="ville" placeholder="Ville">
+                                <br>
+                                <br>
+                                <input type="text" name="pays" placeholder="Pays">
+
+                                <br>
+                                <br>
+                                <br>
+
+
+                                <label for='cv' style='color: black;'>C.V</label>
+                                <input type="file" name="cv" >
+
+                                <br>
+                                <br>
+                                <br>
+
+                                <button type="button" class='btn-form'>Envoyer</button> 
+                                <button type="button" class='btn-form'>Effacer</button> 
+                             <!--     <br>
+                                 <br>
+                                <input type="checkbox" name="cond" class='cond'> -->
+
+                        </form>
+                        
+                        <p class="info">*CGU</p>
+                        
+                        <p class="info">Nous ne publierons , ni divulguerons et utiliserons les informations agrégées (informations relatives à tous nos Utilisateurs ou à des groupes ou catégories spécifiques d’Utilisateurs que nous combinons de manière à ce qu’un Utilisateur individuel ne puisse plus être identifié ou mentionné) et les informations non personnelles à des fins d’analyse du secteur et du marché, de profilage démographique, à des fins promotionnelles et publicitaires et à d’autres fins commerciales.</p>
+                   
+                </div>
+              </div>
+  
+  <!--  ////////////////////AUTRE CONTAINER////////////////////
+               -->
+
+
+
+
+             
+             
+           
+
+
+
+              
+
+
+
+
+
+
+                       
+
+
+                       <!-- ***********************FOOTER****************** -->
+           
+         <footer>
+                <div id="container2">
+                    <label for="lg">Choisir une Langue</label>
+                    <select name="lg" id="lg">
+                        <option value="Fr">Fr</option>
+                        <option value="En">En</option>
+                        <option value="Ar">Arabic</option>
+                        <option value="es">Es</option>
+                    </select>
+            
+                    
+                     <button type="button" id='btn'>Change color</button>
+
+                </div>
+
+               
+
+            <div id="container-media">
+                 <a href="https://twitter.com/fifaworldcup"><img src="../assets/img/twitter-64.png" id="tw1" alt="tw1"></a>
+                 <a href="https://www.instagram.com/coupedumonde2022/?hl=fr"><img src="../assets/img/instagram-64.png" id="is1" alt="is14"></a>
+                 <a href="https://fr-fr.facebook.com/fifa"><img src="../assets/img/facebook-7-64.png" id="fb1" alt="fb14"></a>
+                
+                 <a href="#top"><img src="../assets/img/incone32.png" alt="icone" id="icone"></a>
+             </div>
+
+               <!--  <div id="container2">
+                    <label for="lg">Choose your language</label>
+                    <select name="lg" id="lg">
+                        <option value="Fr">Fr</option>
+                        <option value="En">En</option>
+                        <option value="Ar">Arabic</option>
+                        <option value="es">Es</option>
+                    </select>
+            
+
+                </div> -->
+
+                
+
+
+         </footer>
+
+</body>
+
+        </html>                                     

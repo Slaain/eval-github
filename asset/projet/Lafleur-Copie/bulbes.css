@@ -1,0 +1,80 @@
+html {
+    background-image: url(images/fleur.webp);
+}
+body {
+    background-color: #f5e5ec ;
+    position: relative; /* parent */
+    height: 100%;
+}
+
+.menu {
+    width: 30%;
+    height: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    display: inline-block;
+    background-image: url(images/back.jpg);
+    background-position: 25% 75%;
+    background-size: cover;
+}
+
+.tit {
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 5%;
+    border-bottom: 1px solid black;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.prod {
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 5%;
+    border-bottom: 1px solid black;
+}
+
+li {
+    list-style-type: none;
+}
+
+.page{
+    height: 100%;
+    width: 70%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    display: inline-block;
+    position: absolute;
+    left: 30%;
+    top: 0.2;
+}
+
+
+/* gerer mes bordures, bordure collapse pour fusionner mes lignes */
+
+td, table {
+
+    border: 1px solid black;
+    border-collapse: collapse;
+    position: relative;
+    top: 25%;
+    font-size: 30px;
+}
+
+table  {
+
+    border: 2px solid black;
+    text-align: center;
+    font-size: 55px;
+    position: relative;
+    left: 15%;
+    top: 13%;
+    width: 70%;
+    height: 75%;
+    box-shadow: 0px 0px 14px black;
+}
+
+th {
+    position: relative;
+    left: 32%;
+}

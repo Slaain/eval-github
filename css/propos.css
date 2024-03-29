@@ -1,0 +1,196 @@
+@media (max-width: 767.98px) {
+    .unnset {
+        margin-right: 3% !important;
+    }
+    .denset{
+        margin-right: 3% !important;
+    }
+    .tronset {
+        margin-right: 3% !important;
+    }
+    .cardbot1{
+        margin-left: 8% !important; 
+        max-width: 83% !important;
+    }
+    .cardbot2{
+         margin-left: 15% !important; 
+    }
+    .slide{
+        max-width: 100% !important;
+    }
+  }
+body	{
+		background-image: url(../asset/image/bg.jpg);
+        background-repeat: round;
+	}
+h1{
+    height: 10rem;
+    /* border: 1px solid black; */
+    margin: auto;
+    padding: 1.7rem;
+    text-align: center;
+}
+a{
+    color: #FF0000; 
+}
+/******************************************** nav  ********************************************************/
+
+.show {
+    background-color: rgb(97, 30, 178) !important;
+    color: #F48080 !important;
+    box-shadow: 1px 1px 7px black !important; 
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: white !important;
+    background-color: #F48080 !important;
+}
+/******************************************** nav  ********************************************************/
+/********************************************* card *******************************************************/
+#positionnement {
+    display: flex !important;
+    justify-content: space-between !important;
+    flex-direction: Row !important;
+    flex-wrap: wrap !important;
+    background-color: transparent !important; 
+    margin-left: 3% !important;
+}
+
+.unnset {
+    border:  black !important;
+    display: inline-block !important;
+    width: 27rem !important;
+    box-shadow: 1px 1px 38px black !important;
+}
+.denset {
+    border:  black !important;
+    display: inline-block !important;
+    /* margin-left: 6% !important; */
+    width: 27rem !important;
+    background-color: transparent !important;
+    box-shadow: 1px 1px 38px black !important;
+}
+
+.tronset{
+    margin-right: 5%;
+    border-color:  black !important;
+    display: inline-block !important; 
+    width: 26rem !important;
+    background-color: transparent !important;
+    box-shadow: 1px 1px 38px black !important; 
+}
+.card-header .bg-transparent {
+    border-color:  black !important;
+    text-align: center !important;
+    font-weight: bold !important;
+}
+
+.card-title {
+    color:  black !important;
+    font-weight: bold !important;
+}
+.card-header {
+    color:  black !important;
+    font-weight: bold !important;
+}
+.adam {
+    text-align: center !important;
+  }
+/********************************************* card bot *******************************************************/
+
+
+.positionnement2 {
+    display: flex !important ;
+    justify-content: space-around !important;
+    flex-wrap: wrap !important;
+    background-color: transparent !important;
+}
+.cardbot1 {
+    margin-left:6% !important;
+    border-color:black !important;
+    display: inline-block !important;
+    width: 31rem !important;
+    background-color: transparent !important;
+    box-shadow: 1px 1px 38px black !important; 
+}
+
+.cardbot2 {
+    margin-right: 10% !important;
+    border-color:  black !important;
+    display: inline-block !important;
+    width: 31rem !important;
+    font-weight: bold !important;
+    background-color: transparent !important;
+    box-shadow: 1px 1px 38px black !important;
+}
+.carousel {
+    width: 31rem !important;
+    background-color: transparent !important;
+    box-shadow: 1px 1px 38px black !important; 
+}
+
+
+
+
+
+/********************************************* card bot *******************************************************/
+
+
+
+
+h1:hover {
+    background-color: indianred;
+    text-decoration:none;
+
+}
+.log
+{
+    vertical-align: middle; 
+    padding: 0px 40px;
+    min-height: 10px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+    flex-basis: 100%;
+
+}
+
+.unnset {
+    background-color: transparent !important;
+}
+.comp{
+    display:flex;
+    flex-flow: row wrap;
+    margin-bottom: 10px;
+}
+.comp p{
+    flex: 0 0 40%;
+}
+.conteneur-barre{
+    flex: 0 0 60%;
+    border-radius: 5px;
+    background-color: grey;
+    border-bottom: 1px ridge grey;
+}
+.barre{
+    display: block;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.c85{
+    width: 85%;
+    background-color: #50206e;
+}
+.c90{
+    width: 62%;
+    background-color: #50206e;
+}
+.c95{
+    width: 72%;
+    background-color: #50206e;
+}
+.c100{
+    width: 90%;
+    background-color: #50206e;
+    border-radius: 5px;
+}

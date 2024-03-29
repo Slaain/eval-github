@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.0"
+   width="600"
+   height="660"
+   id="svg2">
+  <desc
+     id="desc4">Flag of Canton of Valais (Wallis)</desc>
+  <defs
+     id="defs6">
+    <linearGradient
+       id="linearGradient2893">
+      <stop
+         id="stop2895"
+         style="stop-color:#ffffff;stop-opacity:0.3137255"
+         offset="0" />
+      <stop
+         id="stop2897"
+         style="stop-color:#ffffff;stop-opacity:0.25098041"
+         offset="0.19" />
+      <stop
+         id="stop2901"
+         style="stop-color:#6b6b6b;stop-opacity:0.1254902"
+         offset="0.60000002" />
+      <stop
+         id="stop2899"
+         style="stop-color:#000000;stop-opacity:0.1254902"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2885">
+      <stop
+         id="stop2887"
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop2891"
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0.22857143" />
+      <stop
+         id="stop2889"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2955">
+      <stop
+         id="stop2867"
+         style="stop-color:#fd0000;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop2873"
+         style="stop-color:#e77275;stop-opacity:0.65882355"
+         offset="0.5" />
+      <stop
+         id="stop2959"
+         style="stop-color:#000000;stop-opacity:0.32291666"
+         offset="1" />
+    </linearGradient>
+
+    <polygon
+       points="0,-1 0.58778525,0.80901699 -0.95105652,-0.30901699 0.95105652,-0.30901699 -0.58778525,0.80901699 0,-1 "
+       transform="scale(53,53)"
+       id="star" />
+    <clipPath
+       id="clip">
+      <path
+         d="M 0,-200 L 0,600 L 300,600 L 300,-200 L 0,-200 z"
+         id="path10" />
+    </clipPath>
+  
+
+
+  </defs>
+  <g
+     id="layer3"
+     style="display:inline">
+    <path
+       d="M 300,660 C 300,660 600,330 600,331.5 C 600,330 300,0 300,1.1368684e-13 C 300,0 0,330 0,330 C 0,330 300,660 300,660 z"
+       id="path2855"
+       style="fill:#2b5df2;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+
+    </g>
+   
+
+  <g
+     id="layer4" />
+  <g
+     id="layer2">
+    <path
+       d="M 300.00001,658.5 C 300,660 600,330 600,330 C 600,330 300,0 300,1.1368684e-13 C 300,0 0,330 0,330 C 0,330 300,660 300.00001,658.5 z"
+       id="path2875"
+       style="opacity:1;fill:url(#radialGradient3163);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <g
+     id="layer1">
+    <path
+       d="M 299.99999,658.50028 C 300,660 0,330 0,330 C 0,330 300,0 300,1.1368684e-13 C 300,0 600,330 600,330 C 600,330 300,660 299.99999,658.50028 z"
+       id="path1411"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.00000048;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+</svg>
