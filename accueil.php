@@ -30,7 +30,7 @@
           <div class="dropdown-menu">
             
             <a class="dropdown-item" href="https://lissagecosmetiques.com/">Projet 1 - Site client cosmétique</a>
-            <a class="dropdown-item" href="https://www.imphair.pro/">Projet 2 - Produit</a>
+            <a class="dropdown-item" href="https://www.imphair.pro/">Projet 2 - Site pour un commerçant </a>
             <a class="dropdown-item" href="../asset/projet/visuel.pdf">Projet Visuel 3</a>
             <a class="dropdown-item" href="https://examen.idrisali.online/view/accueil.php">Projet 4 (examen)</a>
             <a class="dropdown-item" href="../asset/projet/cvcode/cv.html">Projet 5 CV début de formation</a>
